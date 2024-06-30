@@ -37,3 +37,27 @@ psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git
+git init
+git remote add origin https://github.com/MarioYap/fcc-t-database.git
+git add universe.sql
+git push -u origin main
+git push -u origin main
+ls --color=auto
+cd ..
+ls --color=auto
+cd project
+git status
+git add universe.sql
+git status
+git add universe.sql
+git status
+git commit -m "celestial bodies DB"
+git push
+git remote
+git status
+git add universe.sql
+git status
+git add universe.sql
+git status
